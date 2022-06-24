@@ -12,7 +12,7 @@ jobs:
       - name: Build container
         uses: docker/build-push-action@v1
         with:
-          username: supernoob1232
+        
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
           repository: supernoob1232/publish-packages/game
